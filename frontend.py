@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-url = "http://127.0.0.1:8000/screen-diabetes"
+API_URL = "http://<EC2_PUBLIC_IP>:8000/screen-diabetes"
 # -------------------------------
 # Page Setup
 # -------------------------------
