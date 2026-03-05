@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import requests
 
@@ -163,4 +162,3 @@ if st.button("🔍 Screen for Diabetes Risk"):
 
         except requests.exceptions.Timeout:
             st.error("⏳ Request timed out. The server may be busy.")
-```
