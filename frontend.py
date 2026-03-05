@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Replace with your EC2 public IP
-API_URL = "http://YOUR_EC2_PUBLIC_IP:8000/screen-diabetes"
+API_URL = "http://35.179.154.100:8000/screen-diabetes"
 
 # -------------------------------
 # Page Setup
